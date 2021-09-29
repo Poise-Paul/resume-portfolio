@@ -1,9 +1,3 @@
-/**
-* Template Name: MyResume - v4.1.0
-* Template URL: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
 /*--------------------------------------------------------------
 # General
@@ -290,7 +284,31 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 56px;
   color: #45505b;
 }
+/* WhatsApp icon */
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:60px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	/* box-shadow: 2px 2px 3px #999; */
+  z-index:100;
+}
+.float:hover{
+  color: grey;
+}
+.my-float{
+	margin-top:16px;
+}
 
+
+
+/* End What's App Button */
 #hero p {
   color: #45505b;
   margin: 15px 0 0 0;
